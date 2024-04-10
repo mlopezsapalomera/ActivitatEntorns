@@ -22,3 +22,5 @@ El projecte de Buscamines en Java segueix una estructura MVC (Model-Vista-Contro
 - **Model**: Representat per la classe `Model`, gestiona la lògica del joc, incloent la inicialització del camp de mines, el posicionament de les bombes, el recompte del nombre de bombes adjacents, el destapament de caselles i la verificació de l'estat del joc.
 
 - **Vista**: Representat per la classe `Vista`, s'encarrega de mostrar la informació del camp de mines a l'usuari a la consola, facilitant la interacció visual.
+
+Quan s'executa el programa (`MinesMLM.java`), el mètode `main` inicia el joc cridant al mètode `jugar()` del controlador. A partir d'aquí, el controlador gestiona les interaccions de l'usuari, que es reflecteixen en el model a través de les accions realitzades pel jugador. El model actualitza el seu estat en conseqüència i notifica a la vista perquè actualitzi la visualització del camp de mines a la consola. El cicle continua fins que el joc finalitza, ja sigui perquè el jugador guanya, perd o decideix abandonar.
