@@ -10,6 +10,7 @@ En aquest fitxer es troba la classe `Model`, que representa el model del joc de 
 La classe `Vista` en aquest fitxer s'encarrega de mostrar la informació del camp de mines a l'usuari. Conté una funció per mostrar el camp de mines a la consola, amb les caselles ocultes i visibles, així com les lletres de les files i els números de les columnes per facilitar la referència a l'usuari.
 
 #### `MinesMLM.java`:
+Aquest fitxer conté la classe principal `MinesMLM`, que inclou el mètode `main` per iniciar el joc de Buscamines. Simplement crida al mètode `jugar()` de la classe `Controlador` per iniciar l'execució del joc.
 
 
 ### 2. Funcionament del projecte:
