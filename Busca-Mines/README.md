@@ -7,6 +7,7 @@ Aquest fitxer conté la classe `Controlador`, que és responsable de gestionar l
 En aquest fitxer es troba la classe `Model`, que representa el model del joc de Buscamines. Conté funcions per inicialitzar el joc, gestionar el seu estat i verificar-ne la finalització. A més, s'encarrega de posicionar les bombes aleatòriament, comptar el nombre de bombes al voltant de cada casella i destapar caselles segons les accions de l'usuari. També proporciona mètodes per verificar si el jugador ha guanyat i mostrar el resultat del joc.
 
 #### `Vista.java`:
+La classe `Vista` en aquest fitxer s'encarrega de mostrar la informació del camp de mines a l'usuari. Conté una funció per mostrar el camp de mines a la consola, amb les caselles ocultes i visibles, així com les lletres de les files i els números de les columnes per facilitar la referència a l'usuari.
 
 #### `MinesMLM.java`:
 
@@ -19,4 +20,4 @@ El projecte de Buscamines en Java segueix una estructura MVC (Model-Vista-Contro
 
 - **Model**: Representat per la classe `Model`, gestiona la lògica del joc, incloent la inicialització del camp de mines, el posicionament de les bombes, el recompte del nombre de bombes adjacents, el destapament de caselles i la verificació de l'estat del joc.
 
-- **Vista**: 
+- **Vista**: Representat per la classe `Vista`, s'encarrega de mostrar la informació del camp de mines a l'usuari a la consola, facilitant la interacció visual.
